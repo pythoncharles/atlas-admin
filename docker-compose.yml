@@ -1,0 +1,6 @@
+services:
+  admin:
+    build: .
+    env_file: .env
+    ports:
+      - "8001:8001"

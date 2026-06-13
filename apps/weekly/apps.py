@@ -1,0 +1,8 @@
+from django.apps import AppConfig
+
+
+class WeeklyConfig(AppConfig):
+    default_auto_field = "django.db.models.BigAutoField"
+    name = "apps.weekly"
+    label = "weekly"
+    verbose_name = "周报复盘"
