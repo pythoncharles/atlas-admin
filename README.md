@@ -21,13 +21,13 @@
 poetry install
 cp .env.example .env
 poetry run python manage.py check
-poetry run python manage.py runserver 0.0.0.0:8001
+poetry run python manage.py runserver 0.0.0.0:9999
 ```
 
 后台地址：
 
 ```text
-http://127.0.0.1:8001/admin/
+http://127.0.0.1:9999/admin/
 ```
 
 ## 测试与质量检查
